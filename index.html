@@ -13,20 +13,16 @@
 <!-- tailwind-cdn -->
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          },
-          fontFamily: {
-            adlam: ["ADLaM Display", serif],
-
-          },
-        }
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+        },
       }
     }
-  </script>
+  }
+</script>
 
 </head>
 <body class="font-adlam">
@@ -54,25 +50,18 @@
                         <i class="fa-solid fa-bars md:hidden"></i>
             </div>
         </nav>
-        <div class="pt-8 h-188">
-            <!-- header-content -->
-             <div class="space-y-2 relative">
-                <h1 class="text-5xl text-black">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
-                <p class="text-gray-500">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!
+        <!-- Banner-section -->
+         <section class="mx-auto w-auto max-w-screen-xl">
+        <div class="relative bg-[url('images/c1-assets/cat-big.png')] h-[830px] w-auto bg-no-repeat">
 
-                </p>
-                <button class="bg-yellow-400 border-1 px-4 py-2 rounded-xl">FInd a pet</button>
-             </div>
-             <!-- header-image -->
-              <div class="absolute -pt-44 -pl-35">
-                <img src="images/c1-assets/cat-big.png" alt="">
-             </div>
+          <div class="absolute pt-40 ">
+            <h1 class="text-5xl text-black">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
+            <p class="text-gray-500">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!
+            </p>
+            <button class="bg-yellow-400 border-1 px-4 py-2 rounded-xl">FInd a pet</button>
+            </div>
         </div>
-    
-
-        
-
-
+        </section>
     </header>
     
 </body>
