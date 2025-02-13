@@ -19,13 +19,17 @@
         colors: {
           clifford: '#da373d',
         },
-      }
+        font-family: {
+          Adlam: ["ADLaM Display", 'serif'],
+
+        },
+      },
     }
   }
 </script>
 
 </head>
-<body class="">
+<body class="font-adlam">
     <header>
         <nav class="bg-orange-100 w-auto">
 
@@ -65,9 +69,9 @@
             </div>
         </div>
     </header>
-  <main class="mx-auto max-w-screen-xl px-4 md:px-6">
+  <main class="s ">
       <!-- categories-section -->
-    <section class="mt-12">
+    <section class="mx-auto max-w-screen-xl mt-12">
         <h2 class="text-3xl text-black">Browse By Categories</h2>
 
         <!-- card-container -->
@@ -146,16 +150,17 @@
   
     </section>
     <!-- Trending Pet Products -->
-     <section class="mb-16 h-[750px]  bg-fuchsia-300 md:px-2">
+     <section class=" mb-16 md:px- bg-orange-100">
+      <div class="mx-auto max-w-screen-xl pb-10">
       <h2 class="text-2xl text-black pb-8 pt-20">Trending Pet Products</h2>
 
-      <div class="grid grid-cols-3 gap-4 ">
+      <div class=" md:grid grid-cols-3 gap-4 ">
         <!-- t-shirt-for-dog -->
-        <div class=" md:relative bg-amber-200 ">
-          <div class="pt-12 pl-5">
+        <div class=" md:relative bg-amber-200 col-span-1">
+          <div class="pt-12 pl-5 space-y-2">
             <h1 class="text-3xl text-black">T-Shirt-For Dogs</h1>
             <p class="text-gray-400 ">Discover a world of treats,toys,and<br>essentials handpicked for</p>
-            <button>Shop Now</button>
+            <button class="bg-white  px-5 py-2 rounded-lg">Shop Now</button>
           </div>
             <div class="md:absolute bottom-1 right-1">
               <img class="" src="images/c1-assets/cute-pet-small.png" alt="">
@@ -165,11 +170,198 @@
 
 
         <!-- nine-card -->
-        <div class="border-2 border-red-500 h-96 col-span-2">
-
+        <div class="col-span-2 gap-8 flex flex-wrap  ">
+          
+          <!-- card-1 -->
+          <div class="flex  bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/dog-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="flex  bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/fish-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div>
+      
+         
+          <!-- card-3 -->
+          <div class="flex   bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/bird-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div>
+      
+         
+          <!-- card-4 -->
+          <div class="flex  bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/mouse-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div>
+      
+         
+             <!-- card-5 -->
+          <div class="flex  bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/fish-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div>
+      
+         
+          <!-- pet card -->
+          <div class="flex  bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/dog-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div>
+      
+         
+          <!-- pet card -->
+          <div class="flex  bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/dog-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div>
+      
+         
+          <!-- pet card -->
+          <div class="flex  bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/dog-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div>
+      
+         
+          <!-- pet card -->
+          <div class="flex  bg-white gap-2 md:w-[260px] md:h-28 w-44 h-28  pt-4">
+            <div class=" bg-amber-200 mx-1 my-2 w-20 h-20 rounded-lg">
+             <img class="mx-auto pt-5" src="images/c1-assets/dog-cartoon.png" alt="">
+           </div>
+           <div class="my-2">
+            <i class="fa-regular fa-star bg-amber-100"></i> 4.3<br>
+            <small class="text-black text-lg">Pet Bed</small><br>
+            <small class="text-gray-950">$39.99</small>
+            </div>
+          </div> 
         </div>
       </div>
+      </div>
      </section>
+     <!-- every-day-price -->
+    <section class="mx-auto   max-w-screen-xl mb-12">
+      <h1 class="text-black text-3xl pb-4">Everyday low price </h1>
+     <div class="md:flex md:gap-8  ">
+        <!-- dog-div -->
+        <div class="flex bg-gradient-to-r from-indigo-50 to-indigo-200 md:w-7/12">
+          <div class="flex  items-center mx-auto">
+           <div class="pl-4">
+            <small class="text-gray-500 ">Under Price</small>
+            <h3 class="text-3xl text-black">Pet Grooming Mitt</h3>
+            <p class="text-">Easy Hair Removal</p>
+            <h1 class="text-black text-5xl">$7.99</h1>
+           </div>
+         </div>
+          <div>
+            <img src="images/c1-assets/cute-dog-mid.png" alt="">
+          </div>
+
+        </div>
+        <!-- t-shirt-div -->
+         <div class="md:relative bg-gradient-to-r from-orange-50 to-orange-200 md:w-5/12  ">
+         <div class="pl-4 pt-4 md:pt-16 md:pl-16">
+           <h2 class="text-3xl text-black">T-shirt for Dogs</h2>
+           <h1 class="text-5xl text-black">$7.99</h1>
+         </div>
+         <div class="md:absolute bottom-1 right-1 ">
+           <img src="images/c1-assets/cute-pet-mid.png" alt="">
+         </div>
+         </div>
+      </div>
+    </section>
+  <footer class="md:pt-44 pt-64">
+    <section class="">
+      <div class="relative">
+        <!-- get-pawsome news -->
+        <div class="absolute -translate-y-64  md:-translate-y-44 md:left-32 md:w-[1280px] pl-2   md:flex mx-auto max-w-screen-xl  justify-center items-center bg-orange-100">
+          <div class="pr-20">
+           <img class="" src="images/c1-assets/cute-pet-mid.png" alt="">
+         </div>
+         <div class="space-y-4 pb-2">
+           <h1 class="text-black text-3xl">Get Pawsome News!</h1>
+           <p class="text-gray-600 text-lg">Exclusive training tips, ticks, product deals and more.</p>
+           <input placeholder="Enter email " class="bg-white h-12 w-64 pl-2" type="text"><br>
+           <button class="bg-yellow-500 text-black px-8 py-4 rounded-lg">Subscribe</button>
+         </div>
+        </div>
+        <!-- browse-pets-footer -->
+        <div class=" md:flex  justify-around items-center h-auto md:h-[654px] bg-amber-200">
+          <div class="space-y-4 pt-96 md:pt-44">
+            <img class=" inline" src="images/c1-assets/logo-header.png" alt="">
+            <h3 class="text-black text-3xl inline" >Browse<span class="text-amber-300">4</span>Pets</h3>
+            <p class="class=text-lg text-gray-400">Discover a world of treats, toys, and<br> essentials handpicked for your furry<br> friends
+
+            </p>
+          </div>
+          <div class="space-y-3 pt-4 md:pt-44">
+            <h4 class="text-black text-xl">Find a pet</h4>
+            <h4 class="text-black text-xl">Breeds</h4>
+            <h4 class="text-black text-xl">Contact us</h4>
+
+          </div>
+          <div class="space-y-4 pt-4 md:pt-44">
+            <h3 class="text-black text-xl">Follow Us</h3>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+
+          </div>
+        </div>
+      <div>
+    </section>
+  </footer>
+
 
   </main>
     
